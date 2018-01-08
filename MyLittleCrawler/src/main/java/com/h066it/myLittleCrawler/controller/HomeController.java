@@ -68,8 +68,9 @@ public class HomeController {
             }
 
             bw.close();
-            br.close();
+            br.close();            
             System.out.println("crawl success!");
+            
 		} catch (MalformedURLException e) {
 			System.out.println("crawl fail!");
 			System.out.println("Warning! url Error!");
